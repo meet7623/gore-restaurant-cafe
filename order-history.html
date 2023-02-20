@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+		<title>My Profile -- Gore restaurant</title>
+
+		<!-- ================ /GOOGLE FONT EOC =================== -->
+		<link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
+		<link href="assets/font/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<!-- ================ /GOOGLE FONT EOC =================== -->
+		
+		<!-- =================== /WEB CSS BOC ==================== -->
+		<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap-5.0.2/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="./assets/font/montserrat/stylesheet.css">
+		<link rel="stylesheet" type="text/css" href="./assets/css/animations.css">
+		<link rel="stylesheet" type="text/css" href="./assets/css/slick.min.css">
+		<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+		<link rel="stylesheet" type="text/css" href="./assets/css/media.css">
+
+		<!-- =================== /WEB CSS EOC ==================== -->
+
+		<style type="text/css">
+			.show_hide {display:none; }
+		</style>
+	</head>
+	<body id="about" class="aboutPage">
+		
+	<!-- ====== /WRAPPER BOC ====== -->
+		<div class="page-wrapper ">
+		  	<!-- header start -->
+		  	<header class="site-header">
+			    <div class="header-main nav-area">
+			      	<div class="header-inner-main">
+			      		<div class="container">
+				          	<div class="navbar-container">
+
+					            <nav class="navbar navbar-dark navbar-expand-lg">
+					                <div class="header-logo">
+					                	<a href="homepage.html"><img src="assets/images/logo.png" alt="header-logo"></a>
+					              	</div>
+					              	<div class="header-inner d-flex">
+						                <div class="header-right">
+							                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+							                    <span class="icon-bar"></span>
+							                    <span class="icon-bar"></span>
+							                    <span class="icon-bar"></span>
+							                </button>
+
+						                    <div class="collapse header-menu navbar-collapse " id="navbarNavDropdown">
+						                      <div class="header-menu-inner" id="accordionMenu">
+						                        <ul class="navbar-nav" id="menu-center">
+						                          	<li class="nav-item ">
+						                            	<a href="homepage.html">HOME</a>
+						                          	</li>
+													
+													<li class="nav-item ">
+						                            	<a href="about.html">ABOUT</a>
+													</li>
+						                          
+													<li class="nav-item">
+						                            	<a href="menu.html" class="menu-span">MENU <span class="text-span">NEW</span></a>
+													</li>
+
+													<li class="nav-item">
+						                            	<a href="gallery.html">GALLERY</a>
+													</li>
+
+													<li class="nav-item">
+						                            	<a href="contact.html">CONTACT</a>
+													</li>
+						                          
+						                        </ul>
+
+						                        <div class="header-btn">
+						                        	<a href="cart.html" class="cart-link"><img src="assets/images/cart.png" alt="#"><span class="number-text">12</span></a>
+						                        	<a href="profile.html" class="profile-link"><img src="assets/images/profile-icon.png" alt="#"></a>
+						                        </div>
+
+						                      </div>
+						                    </div>
+						                </div>
+						            </div>
+					            </nav>
+				            </div>
+			            </div>
+			        </div>
+			    </div>
+		  	</header> 
+			<!-- header End -->
+
+			<!-- Content Start -->
+
+			<div class="page-loader">
+				<div class="moderspinner"></div>
+			</div>
+
+			<section class="banner-sec banner-ptb-70" >
+				<div class="banner-section banner-header-pt" style="background-image: url('./assets/images/my-profile-bg.png');">
+					<div class="container">
+						<div class="banner_wp">
+							<div class="banner_profile">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+
+			<section class="section profile-main pt-1">
+				<div class="profile-main-sc">
+					<div class="container">
+						<div class="profile-wrapper">
+							<div class="row">
+								<div class="col-lg-3 col-md-4 col-sm-12 col-12">
+									<div class="profile-side-bar white-bg">
+										<div class="profile-header">
+											<div class="profile-header-wp">
+												<h5>My Profile</h5>
+											</div>
+											
+										</div>
+										<div class="profile-side-link">
+											<ul>
+												<li ><a href="#"><img src="assets/images/profile/profile.png" alt="#" class="icon"> My Account</a></li>
+												<li class="active"><a href="#"><img src="assets/images/profile/buy.png" alt="#" class="icon"> Order History</a></li>
+												<li ><a href="#"><img src="assets/images/profile/location.png" alt="#" class="icon">Address Book</a></li>
+												<li ><a href="#"><img src="assets/images/profile/card.png" alt="#" class="icon">Saved Cards</a></li>
+												<li ><a href="#"><img src="assets/images/profile/lock.png" alt="#" class="icon">Change Password</a></li>
+												<li ><a href="#"><img src="assets/images/profile/filter.png" alt="#" class="icon">Advance Options</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-8 col-sm-12 col-12 ">
+									<div class="profile_right white-bg">
+										<div class="profile-header">
+											<div class="profile-header-wp">
+												<h5>Order History</h5>
+											</div>
+										</div>
+										<div class="profile-form">
+											<div class="order-history">
+													<div class="card order-history-card">
+														<nav>
+															<div class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
+																<button class="nav-link active" id="nav-po" data-bs-toggle="tab" data-bs-target="#nav-pending-o" type="button" role="tab" aria-controls="nav-pending-o" aria-selected="true">Pending Orders</button>
+																<button class="nav-link" id="nav-so-tab" data-bs-toggle="tab" data-bs-target="#nav-so" type="button" role="tab" aria-controls="nav-so" aria-selected="false">Saved Order</button>
+																<button class="nav-link" id="nav-do-tab" data-bs-toggle="tab" data-bs-target="#nav-do" type="button" role="tab" aria-controls="nav-do" aria-selected="false">Delivered Order</button>
+																<button class="nav-link" id="nav-canceled-o" data-bs-toggle="tab" data-bs-target="#nav-co" type="button" role="tab" aria-controls="nav-co" aria-selected="false">Canceled Order</button>
+															</div>
+														</nav>
+														<div class="tab-content" id="nav-tabContent">
+															<div class="tab-pane fade active show" id="nav-pending-o" role="tabpanel" aria-labelledby="nav-po">
+																<div class="product-order-main">
+																	<div class="product-order-row">
+																		<div class="product-order-col active">
+																			<a href="#" class="order-link"></a>
+																			<div class="order-link-wp">
+																				<div class="product-order-img">
+																					<img src="assets/images/profile/order-img.png" alt="#">
+																				</div>
+																				<div class="product-order-info">
+																					<h5 class="date">15 Jan 2023</h5>
+																					<p>1 x 2 Lamb Biriyani | 1 x 1 Chicken Biriyani | Burger(1) | Pizza (2) Panir Tikka (2) | Cold Drinks (2)</p>
+																					<h5 class="price">$ 100</h5>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="product-order-col">
+																			<a href="#" class="order-link"></a>
+																			<div class="order-link-wp">
+																				<div class="product-order-img">
+																					<img src="assets/images/profile/order-img2.png" alt="#">
+																				</div>
+																				<div class="product-order-info">
+																					<h5 class="date">15 Jan 2023</h5>
+																					<p>1 x 2 Lamb Biriyani | 1 x 1 Chicken Biriyani | Burger(1) | Pizza (2) Panir Tikka (2) | Cold Drinks (2)</p>
+																					<h5 class="price">$ 100</h5>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="product-order-col">
+																			<a href="#" class="order-link"></a>
+																			<div class="order-link-wp">
+																				<div class="product-order-img">
+																					<img src="assets/images/profile/order-img3.png" alt="#">
+																				</div>
+																				<div class="product-order-info">
+																					<h5 class="date">15 Jan 2023</h5>
+																					<p>1 x 2 Lamb Biriyani | 1 x 1 Chicken Biriyani | Burger(1) | Pizza (2) Panir Tikka (2) | Cold Drinks (2)</p>
+																					<h5 class="price">$ 100</h5>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="tab-pane fade" id="nav-so" role="tabpanel" aria-labelledby="nav-so-tab">
+																<div class="product-order-main">
+																	<div class="product-order-row">
+																		<div class="product-order-col active">
+																			<a href="#" class="order-link"></a>
+																			<div class="order-link-wp">
+																				<div class="product-order-img">
+																					<img src="assets/images/profile/order-img.png" alt="#">
+																				</div>
+																				<div class="product-order-info">
+																					<h5 class="date">15 Jan 2023</h5>
+																					<p>1 x 2 Lamb Biriyani | 1 x 1 Chicken Biriyani | Burger(1) | Pizza (2) Panir Tikka (2) | Cold Drinks (2)</p>
+																					<h5 class="price">$ 100</h5>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="product-order-col">
+																			<a href="#" class="order-link"></a>
+																			<div class="order-link-wp">
+																				<div class="product-order-img">
+																					<img src="assets/images/profile/order-img2.png" alt="#">
+																				</div>
+																				<div class="product-order-info">
+																					<h5 class="date">15 Jan 2023</h5>
+																					<p>1 x 2 Lamb Biriyani | 1 x 1 Chicken Biriyani | Burger(1) | Pizza (2) Panir Tikka (2) | Cold Drinks (2)</p>
+																					<h5 class="price">$ 100</h5>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="product-order-col">
+																			<a href="#" class="order-link"></a>
+																			<div class="order-link-wp">
+																				<div class="product-order-img">
+																					<img src="assets/images/profile/order-img3.png" alt="#">
+																				</div>
+																				<div class="product-order-info">
+																					<h5 class="date">15 Jan 2023</h5>
+																					<p>1 x 2 Lamb Biriyani | 1 x 1 Chicken Biriyani | Burger(1) | Pizza (2) Panir Tikka (2) | Cold Drinks (2)</p>
+																					<h5 class="price">$ 100</h5>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="tab-pane fade" id="nav-do" role="tabpanel" aria-labelledby="nav-do-tab">
+																<div class="product-order-main">
+																	<div class="product-order-row">
+																		<div class="product-order-col active">
+																			<a href="#" class="order-link"></a>
+																			<div class="order-link-wp">
+																				<div class="product-order-img">
+																					<img src="assets/images/profile/order-img.png" alt="#">
+																				</div>
+																				<div class="product-order-info">
+																					<h5 class="date">15 Jan 2023</h5>
+																					<p>1 x 2 Lamb Biriyani | 1 x 1 Chicken Biriyani | Burger(1) | Pizza (2) Panir Tikka (2) | Cold Drinks (2)</p>
+																					<div class="give_feedback_main">
+																						<h5 class="price">$ 100</h5>
+																						<a href="javascript:void(0)" class="give_feedback" data-bs-toggle="modal" data-bs-target="#give_us_feedback">GIVE FEEDBACK</a>
+																					</div>
+																					
+																				</div>
+																			</div>
+																		</div>
+																		<div class="product-order-col">
+																			<a href="#" class="order-link"></a>
+																			<div class="order-link-wp">
+																				<div class="product-order-img">
+																					<img src="assets/images/profile/order-img2.png" alt="#">
+																				</div>
+																				<div class="product-order-info">
+																					<h5 class="date">15 Jan 2023</h5>
+																					<p>1 x 2 Lamb Biriyani | 1 x 1 Chicken Biriyani | Burger(1) | Pizza (2) Panir Tikka (2) | Cold Drinks (2)</p>
+																					<div class="give_feedback_main">
+																						<h5 class="price">$ 100</h5>
+																						<a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#give_us_feedback" class="give_feedback">GIVE FEEDBACK</a>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="product-order-col">
+																			<a href="#" class="order-link"></a>
+																			<div class="order-link-wp">
+																				<div class="product-order-img">
+																					<img src="assets/images/profile/order-img3.png" alt="#">
+																				</div>
+																				<div class="product-order-info">
+																					<h5 class="date">15 Jan 2023</h5>
+																					<p>1 x 2 Lamb Biriyani | 1 x 1 Chicken Biriyani | Burger(1) | Pizza (2) Panir Tikka (2) | Cold Drinks (2)</p>
+																					<div class="give_feedback_main">
+																						<h5 class="price">$ 100</h5>
+																						<a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#give_us_feedback" class="give_feedback">GIVE FEEDBACK</a>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="tab-pane fade" id="nav-co" role="tabpanel" aria-labelledby="nav-canceled-o">
+																<div class="product-order-main">
+																	<div class="product-order-row">
+																		<div class="product-order-col active">
+																			<a href="#" class="order-link"></a>
+																			<div class="order-link-wp">
+																				<div class="product-order-img">
+																					<img src="assets/images/profile/order-img.png" alt="#">
+																				</div>
+																				<div class="product-order-info">
+																					<h5 class="date">15 Jan 2023</h5>
+																					<p>1 x 2 Lamb Biriyani | 1 x 1 Chicken Biriyani | Burger(1) | Pizza (2) Panir Tikka (2) | Cold Drinks (2)</p>
+																					<div class="give_feedback_main">
+																						<h5 class="price">$ 100</h5>
+																						<div class="cancel-give-feedback">
+																							<a href="#" class="cancel-report">Cancel Report</a>
+																							<a href="javascript:void(0)" class="give_feedback" data-bs-toggle="modal" data-bs-target="#give_us_feedback">GIVE FEEDBACK</a>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="product-order-col">
+																			<a href="#" class="order-link"></a>
+																			<div class="order-link-wp">
+																				<div class="product-order-img">
+																					<img src="assets/images/profile/order-img2.png" alt="#">
+																				</div>
+																				<div class="product-order-info">
+																					<h5 class="date">15 Jan 2023</h5>
+																					<p>1 x 2 Lamb Biriyani | 1 x 1 Chicken Biriyani | Burger(1) | Pizza (2) Panir Tikka (2) | Cold Drinks (2)</p>
+																					<div class="give_feedback_main">
+																						<h5 class="price">$ 100</h5>
+																						<div class="cancel-give-feedback">
+																							<a href="#" class="cancel-report">Cancel Report</a>
+																							<a href="javascript:void(0)" class="give_feedback" data-bs-toggle="modal" data-bs-target="#give_us_feedback">GIVE FEEDBACK</a>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="product-order-col">
+																			<a href="#" class="order-link"></a>
+																			<div class="order-link-wp">
+																				<div class="product-order-img">
+																					<img src="assets/images/profile/order-img3.png" alt="#">
+																				</div>
+																				<div class="product-order-info">
+																					<h5 class="date">15 Jan 2023</h5>
+																					<p>1 x 2 Lamb Biriyani | 1 x 1 Chicken Biriyani | Burger(1) | Pizza (2) Panir Tikka (2) | Cold Drinks (2)</p>
+																					<div class="give_feedback_main">
+																						<h5 class="price">$ 100</h5>
+																						<div class="cancel-give-feedback">
+																							<a href="#" class="cancel-report">Cancel Report</a>
+																							<a href="javascript:void(0)" class="give_feedback" data-bs-toggle="modal" data-bs-target="#give_us_feedback">GIVE FEEDBACK</a>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>	
+																
+															</div>
+														</div>
+													</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-12 col-sm-12 col-12 order-summary-main">
+									<div class="profile_right white-bg">
+										<div class="profile-header">
+											<div class="profile-header-wp">
+												<h5>Order Summary</h5>
+											</div>
+										</div>
+										
+										<div class="order-summary">
+											<div class="order-id">
+												<h4>Order Id : GR15227282</h4>
+												<p>Placed on : 15 Jan, 2022 | 10:30 AM</p>
+											</div>
+											<div class="order-list">
+												<div class="order-list-col">
+													<div class="order-list-text">
+														<h5>1 x 2 <b>Lamb Biriyani</b></h5>
+														<ul>
+															<li>Mild Sauce</li>
+															<li>No Extres</li>
+														</ul>
+													</div>
+													<div class="order-list-price">
+														<h5>$49.00</h5>
+													</div>
+												</div>
+												<div class="order-list-col">
+													<div class="order-list-text">
+														<h5>1 x 2 <b>Lamb Biriyani</b></h5>
+														<ul>
+															<li>Mild Sauce</li>
+															<li>No Extres</li>
+														</ul>
+													</div>
+													<div class="order-list-price">
+														<h5>$49.00</h5>
+													</div>
+												</div>
+											</div>
+											<div class="order-list subtotal">
+												<div class="order-list-col">
+													<div class="order-list-text">
+														<h5><b>Subtotal</b></h5>
+													</div>
+													<div class="order-list-price">
+														<h5>$100</h5>
+													</div>
+												</div>
+												<div class="order-list-col service-charge">
+													<div class="order-list-text">
+														<p>Service charge</p>
+													</div>
+													<div class="order-list-price">
+														<p>$5</p>
+													</div>
+												</div>
+												
+											</div>
+											<div class="payment_type">
+												<p class="title-type">Delivery Type :</p>
+												<div class="payment_type-img">
+													<img src="assets/images/profile/Stripe.png" alt="#">
+												</div>
+											</div>
+											<div class="payment_type">
+												<p class="title-type">Delivery Type :</p>
+												<h5>Home Delivery</h5>
+												<p class="address">60 East 65th Street, wesex, London.</p>
+											</div>
+											<div class="payment_btn-main">
+												<a href="#" class="payment_btn">Track Order</a>
+											</div>
+										</div>
+										
+									</div>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<!-- Content End -->
+		</div>
+
+		<!-- ====== FOOTER BOC ====== -->
+		<footer> 
+			<div class="footer-top">
+				<div class="container">
+					<div class="footer-top-wrapper text-center">
+						<div class="footer-logo">
+							<img alt="footer_logo" src="assets/images/logo.png">
+						</div>
+						<div class="footer-top-content">
+							<h4 class="fw-light">Get all latest news of our restaurant<br> food at any time.</h4>
+						</div>
+						<div class="footer-form">
+							<div class="form-group">
+								<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Email">
+								<button type="submit" class="btn btn-yellow">Subscribe</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+            <div class="footer-main">
+                <div class="container">
+                    <div class="footer-wrapper">
+                        <div class="inner-footer">
+                            <div class="footer-mennu-wrapper pb-5">
+                                <div class="row gx-md-5 gy-4">
+                                    <div class="col-lg-2 col-sm-6 col-12">
+										<div class="footer-menu-col footer-menu-link">
+											<h6 class="white_text">Quick Links</h6>
+											<ul>
+												<li><a href="#"><p>Home</p></a></li>
+												<li><a href="#"><p>About</p></a></li>
+												<li><a href="#"><p>Menu</p></a></li>
+												<li><a href="#"><p>Gallery</p></a></li>
+												<li><a href="#"><p>Contact</p></a></li>
+												<li><a href="#"><p>My Order</p></a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-lg-4 col-sm-6 col-12">
+										<div class="footer-menu-col">
+											<h6 class="white_text">Our Place</h6>
+											<div class="place-box-wrapper">
+												<a href="#">
+													<img class="w-100" src="assets/images/footer_place_img1.png">
+												</a>
+												<a href="#">
+													<img class="w-100" src="assets/images/footer_place_img2.png">
+												</a>
+												<a href="#">
+													<img class="w-100" src="assets/images/footer_place_img3.png">
+												</a>
+												<a href="#">
+													<img class="w-100" src="assets/images/footer_place_img4.png">
+												</a>
+												<a href="#">
+													<img class="w-100" src="assets/images/footer_place_img5.png">
+												</a>
+												<a href="#">
+													<img class="w-100" src="assets/images/footer_place_img6.png">
+												</a>
+											</div>
+										</div>
+									</div>
+                                    <div class="col-lg-3 col-sm-6 col-12">
+										<div class="footer-menu-col payment-accept-main">
+											<h6 class="white_text">Payment We Accept</h6>
+											<ul class="row g-4">
+												<li class="col-6"><a href="#" class="w-100"><img class="w-100" src="assets/images/Payment-Method/Visa.png"></a></li>
+												<li class="col-6"><a href="#" class="w-100"><img class="w-100" src="assets/images/Payment-Method/Mastercard.png"></a></li>
+												<li class="col-6"><a href="#" class="w-100"><img class="w-100" src="assets/images/Payment-Method/GooglePay.png"></a></li>
+												<li class="col-6"><a href="#" class="w-100"><img class="w-100" src="assets/images/Payment-Method/ApplePay.png"></a></li>
+											</ul>
+										</div>
+									</div>
+                                    <div class="col-lg-3 col-sm-6 col-12">
+										<div class="footer-menu-col text-sm-start">
+											<!-- <p>Get All Latest Updates</p> -->
+											<h6 class="white_text">Contact</h6>
+											<a href="#" class="d-flex align-items-start">
+												<img src="assets/images/Location.png" class="pe-3">
+												<p class="white_text">60 East 65th Street<br>
+													New Delhi City<br>
+													Hay 10065</p>
+											</a>
+											<div class="footer-media my-3">
+												<ul class="d-flex justify-content-sm-between justify-content-center">
+													<li class="pe-2"><a href="#"><img src="assets/images/facebook.png"></a></li>
+													<li class="pe-2"><a href="#"><img src="assets/images/instagram.png"></a></li>
+													<li class="pe-2"><a href="#"><img src="assets/images/twitter.png"></a></li>
+													<li class="pe-2"><a href="#"><img src="assets/images/youtube.png"></a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+                                    
+                                </div>
+                            </div>
+                            <div class="visit_our_cafe" style="background-image: url('./assets/images/visit_our_cafe_bg.png'); background-size: cover;background-repeat: no-repeat;">
+                            	<div class="visit_our_cafe-row">
+                            		<div class="visit_our_cafe-text">
+                            			<h3 class="white_text">Visit Our Cafe for more variety</h3>
+                            			<p>Consectetur numquam poro nemo veniam <br>eligendi rem adipisci quo modi.</p>
+                            		</div>
+                            		<div class="visit_our_cafe-link">
+                            			<a href="#" class="btn btn-yellow">GO</a>
+                            		</div>
+                            	</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="footer-second-wrapper">
+                        <div class="w-100 text-center py-3">
+                            <div class="copyright">
+                                <p class="mb-0 white_text">Gore cafe & restaurant© 2023. All Rights Reserved.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+		<!-- ====== FOOTER End ====== -->
+
+	</body>
+	<script type="text/javascript" src="./assets/js/jquery-3.6.0/jquery.min.js"></script>
+	<script type="text/javascript" src="./assets/js/popper.min.js"></script>
+	<script type="text/javascript" src="./assets/js/bootstrap-5.0.2/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="./assets/js/css3-animate-it.js"></script>
+	<script type="text/javascript" src="./assets/js/slick.min.js"></script>
+	<script type="text/javascript" src="./assets/js/custom.js"></script>
+
+
+<!-- Popup-HTML Start -->
+
+
+	<div class="modal fade give_us_feedback-pp" id="give_us_feedback" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  	<div class="modal-dialog modal-dialog-centered" role="document">
+	    	<div class="modal-content">
+	      		<div class="give_feedback-main">
+	      			<div class="give_feedback-title">
+	      				<h4>Give us feedback</h4>
+	      				<p>Your feedback is very important to improve our food quality and services</p>
+	      			</div>
+	      			<div class="give_feedback-row">
+	      				<div class="give_feedback-col">
+	      					<h4>Value for money ?</h4>
+	      					<div class="feedback-star">
+	      						<div class="star-main">
+	      							<ul class="star-wp">
+	      								<li><a href="#"><img src="assets/images/profile/star.png" alt="#"></a></li>
+	      								<li><a href="#"><img src="assets/images/profile/star.png" alt="#"></a></li>
+	      								<li><a href="#"><img src="assets/images/profile/star.png" alt="#"></a></li>
+	      								<li><a href="#"><img src="assets/images/profile/star.png" alt="#"></a></li>
+	      								<li><a href="#"><img src="assets/images/profile/star.png" alt="#"></a></li>
+	      							</ul>
+	      						</div>
+	      					</div>
+	      				</div>
+	      				<div class="give_feedback-col rated">
+	      					<h4>Service Speed ?</h4>
+	      					<div class="feedback-star">
+	      						<div class="star-main">
+	      							<ul class="star-wp">
+	      								<li><a href="#"><img src="assets/images/profile/star-click.png" alt="#"></a></li>
+	      								<li><a href="#"><img src="assets/images/profile/star-click.png" alt="#"></a></li>
+	      								<li><a href="#"><img src="assets/images/profile/star-click.png" alt="#"></a></li>
+	      								<li><a href="#"><img src="assets/images/profile/star-click.png" alt="#"></a></li>
+	      								<li><a href="#"><img src="assets/images/profile/star-click.png" alt="#"></a></li>
+	      							</ul>
+	      						</div>
+	      						<h4>Vey Good</h4>
+	      					</div>
+	      				</div>
+	      				<div class="give_feedback-col">
+	      					<h4>Product quality ?</h4>
+	      					<div class="feedback-star">
+	      						<div class="star-main">
+	      							<ul class="star-wp">
+	      								<li><a href="#"><img src="assets/images/profile/star.png" alt="#"></a></li>
+	      								<li><a href="#"><img src="assets/images/profile/star.png" alt="#"></a></li>
+	      								<li><a href="#"><img src="assets/images/profile/star.png" alt="#"></a></li>
+	      								<li><a href="#"><img src="assets/images/profile/star.png" alt="#"></a></li>
+	      								<li><a href="#"><img src="assets/images/profile/star.png" alt="#"></a></li>
+	      							</ul>
+	      						</div>
+	      					</div>
+	      				</div>
+	      			</div>
+	      			<div class="comment-main">
+	      				<label>*Please be polite. This place is for love & feedback not hate</label>
+	      				<div class="form-group">
+	      					<textarea placeholder="Write Comment !" class="form-control"></textarea>
+	      				</div>
+	      				<div class="send-btn-wp">
+	      					<div class="text-center"><label>Thank you for your amazing feedback, We will contact you if needed.</label></div>
+	      					<a href="#" class="send-btn">Send Feedback</a>
+	      				</div>
+	      			</div>
+	      		</div>
+	    	</div>
+	  	</div>
+	</div>
+
+
+	<!-- Pop UP -->
+
+
+</html>

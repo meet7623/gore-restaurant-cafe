@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+		<title>Address Book -- Gore restaurant</title>
+
+		<!-- ================ /GOOGLE FONT EOC =================== -->
+		<link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
+		<link href="assets/font/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<!-- ================ /GOOGLE FONT EOC =================== -->
+		
+		<!-- =================== /WEB CSS BOC ==================== -->
+		<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap-5.0.2/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="./assets/font/montserrat/stylesheet.css">
+		<link rel="stylesheet" type="text/css" href="./assets/css/animations.css">
+		<link rel="stylesheet" type="text/css" href="./assets/css/slick.min.css">
+		<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+		<link rel="stylesheet" type="text/css" href="./assets/css/media.css">
+
+		<!-- =================== /WEB CSS EOC ==================== -->
+
+		<style type="text/css">
+			.show_hide {display:none; }
+		</style>
+	</head>
+	<body id="about" class="aboutPage">
+		
+	<!-- ====== /WRAPPER BOC ====== -->
+		<div class="page-wrapper ">
+		  	<!-- header start -->
+		  	<header class="site-header">
+			    <div class="header-main nav-area">
+			      	<div class="header-inner-main">
+			      		<div class="container">
+				          	<div class="navbar-container">
+
+					            <nav class="navbar navbar-dark navbar-expand-lg">
+					                <div class="header-logo">
+					                	<a href="homepage.html"><img src="assets/images/logo.png" alt="header-logo"></a>
+					              	</div>
+					              	<div class="header-inner d-flex">
+						                <div class="header-right">
+							                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+							                    <span class="icon-bar"></span>
+							                    <span class="icon-bar"></span>
+							                    <span class="icon-bar"></span>
+							                </button>
+
+						                    <div class="collapse header-menu navbar-collapse " id="navbarNavDropdown">
+						                      <div class="header-menu-inner" id="accordionMenu">
+						                        <ul class="navbar-nav" id="menu-center">
+						                          	<li class="nav-item ">
+						                            	<a href="homepage.html">HOME</a>
+						                          	</li>
+													
+													<li class="nav-item ">
+						                            	<a href="about.html">ABOUT</a>
+													</li>
+						                          
+													<li class="nav-item">
+						                            	<a href="menu.html" class="menu-span">MENU <span class="text-span">NEW</span></a>
+													</li>
+
+													<li class="nav-item">
+						                            	<a href="gallery.html">GALLERY</a>
+													</li>
+
+													<li class="nav-item">
+						                            	<a href="contact.html">CONTACT</a>
+													</li>
+						                          
+						                        </ul>
+
+						                        <div class="header-btn">
+						                        	<a href="cart.html" class="cart-link"><img src="assets/images/cart.png" alt="#"><span class="number-text">12</span></a>
+						                        	<a href="profile.html" class="profile-link"><img src="assets/images/profile-icon.png" alt="#"></a>
+						                        </div>
+
+						                      </div>
+						                    </div>
+						                </div>
+						            </div>
+					            </nav>
+				            </div>
+			            </div>
+			        </div>
+			    </div>
+		  	</header> 
+			<!-- header End -->
+
+			<!-- Content Start -->
+
+			<div class="page-loader">
+				<div class="moderspinner"></div>
+			</div>
+
+			<section class="banner-sec banner-ptb-70" >
+				<div class="banner-section banner-header-pt" style="background-image: url('./assets/images/my-profile-bg.png');">
+					<div class="container">
+						<div class="banner_wp">
+							<div class="banner_profile">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+
+			<section class="section profile-main pt-1">
+				<div class="profile-main-sc">
+					<div class="container">
+						<div class="profile-wrapper">
+							<div class="row">
+								<div class="col-lg-3 col-md-4 col-sm-12 col-12">
+									<div class="profile-side-bar white-bg">
+										<div class="profile-header">
+											<div class="profile-header-wp">
+												<h5>My Profile</h5>
+											</div>
+											
+										</div>
+										<div class="profile-side-link">
+											<ul>
+												<li ><a href="#"><img src="assets/images/profile/profile.png" alt="#" class="icon"> My Account</a></li>
+												<li ><a href="#"><img src="assets/images/profile/buy.png" alt="#" class="icon"> Order History</a></li>
+												<li class="active"><a href="#"><img src="assets/images/profile/location.png" alt="#" class="icon">Address Book</a></li>
+												<li ><a href="#"><img src="assets/images/profile/card.png" alt="#" class="icon">Saved Cards</a></li>
+												<li ><a href="#"><img src="assets/images/profile/lock.png" alt="#" class="icon">Change Password</a></li>
+												<li ><a href="#"><img src="assets/images/profile/filter.png" alt="#" class="icon">Advance Options</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-9 col-md-8 col-sm-12 col-12 ">
+									<div class="profile_right white-bg">
+										<div class="profile-header">
+											<div class="profile-header-wp">
+												<h5>Address Book</h5>
+											</div>
+										</div>
+										<div class="profile-form pb-5">
+											<form>
+
+												<div class="profile-row">
+													<div class="add-card-main">
+														<div class="row">
+															<div class="col-lg-4 col-md-6 col-sm-6 col-12">
+																<div class="card-box-main">
+																	<div class="card-info">
+																		<h5>42 Long, Kamptown</h5>
+																		<p>4400 | London, UK</p>
+																	</div>
+																	<div class="card-bottom">
+																		<p>Primary</p>
+																		<a href="#" class="edit">EDIT</a>
+																	</div>
+																</div>
+															</div>
+															<div class="col-lg-4 col-md-6 col-sm-6 col-12">
+																<a href="#" class="new-address-box-link">
+																	<div class="new-address-box-main">
+																		<div class="new-address-box text-center">
+																			<div class="icon"><img src="assets/images/profile/plus.png" alt="#"></div>
+																			<span>NEW ADDRESS</span>
+																		</div>
+																	</div>
+																</a>
+															</div>
+														</div>
+
+														
+
+														
+
+													</div>
+												</div>
+
+												<div class="form-group form-title">
+													<h6 class="font_md">Add new address</h6>
+												</div>
+												<div class="row">
+													<div class="col-lg-6 col-md-12 col-sm-6 col-12">
+														<div class="form-group">
+															<label>Door No</label>
+													    	<input type="text" class="form-control" placeholder="Enter Here.." value="Sara">
+													  	</div>		
+													</div>
+													<div class="col-lg-6 col-md-12 col-sm-6 col-12">
+														<div class="form-group">
+															<label>Flat</label>
+													    	<input type="text" class="form-control" placeholder="Enter Here.." value="Vesputi">
+													  	</div>		
+													</div>
+													<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+														<div class="form-group">
+															<label>Post Code</label>
+															<input type="text" class="form-control" value="">
+													  	</div>		
+													</div>
+													<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+														<div class="form-group">
+															<label>Street</label>
+													    	<input type="text" class="form-control" placeholder="" >
+													  	</div>		
+													</div>
+													<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+														<div class="form-group">
+															<label>City</label>
+													    	<input type="text" class="form-control" placeholder="" >
+													  	</div>		
+													</div>
+
+
+													
+													<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+														<div class="form-group form-btn save_address_50">
+															<button class="btn btn-yellow w-100" type="submit">Save Address</button>
+														</div>
+														
+													</div>
+												</div>
+											</form>
+										</div>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<!-- Content End -->
+		</div>
+
+		<!-- ====== FOOTER BOC ====== -->
+		<footer> 
+			<div class="footer-top">
+				<div class="container">
+					<div class="footer-top-wrapper text-center">
+						<div class="footer-logo">
+							<img alt="footer_logo" src="assets/images/logo.png">
+						</div>
+						<div class="footer-top-content">
+							<h4 class="fw-light">Get all latest news of our restaurant<br> food at any time.</h4>
+						</div>
+						<div class="footer-form">
+							<div class="form-group">
+								<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Email">
+								<button type="submit" class="btn btn-yellow">Subscribe</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+            <div class="footer-main">
+                <div class="container">
+                    <div class="footer-wrapper">
+                        <div class="inner-footer">
+                            <div class="footer-mennu-wrapper pb-5">
+                                <div class="row gx-md-5 gy-4">
+                                    <div class="col-lg-2 col-sm-6 col-12">
+										<div class="footer-menu-col footer-menu-link">
+											<h6 class="white_text">Quick Links</h6>
+											<ul>
+												<li><a href="#"><p>Home</p></a></li>
+												<li><a href="#"><p>About</p></a></li>
+												<li><a href="#"><p>Menu</p></a></li>
+												<li><a href="#"><p>Gallery</p></a></li>
+												<li><a href="#"><p>Contact</p></a></li>
+												<li><a href="#"><p>My Order</p></a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-lg-4 col-sm-6 col-12">
+										<div class="footer-menu-col">
+											<h6 class="white_text">Our Place</h6>
+											<div class="place-box-wrapper">
+												<a href="#">
+													<img class="w-100" src="assets/images/footer_place_img1.png">
+												</a>
+												<a href="#">
+													<img class="w-100" src="assets/images/footer_place_img2.png">
+												</a>
+												<a href="#">
+													<img class="w-100" src="assets/images/footer_place_img3.png">
+												</a>
+												<a href="#">
+													<img class="w-100" src="assets/images/footer_place_img4.png">
+												</a>
+												<a href="#">
+													<img class="w-100" src="assets/images/footer_place_img5.png">
+												</a>
+												<a href="#">
+													<img class="w-100" src="assets/images/footer_place_img6.png">
+												</a>
+											</div>
+										</div>
+									</div>
+                                    <div class="col-lg-3 col-sm-6 col-12">
+										<div class="footer-menu-col payment-accept-main">
+											<h6 class="white_text">Payment We Accept</h6>
+											<ul class="row g-4">
+												<li class="col-6"><a href="#" class="w-100"><img class="w-100" src="assets/images/Payment-Method/Visa.png"></a></li>
+												<li class="col-6"><a href="#" class="w-100"><img class="w-100" src="assets/images/Payment-Method/Mastercard.png"></a></li>
+												<li class="col-6"><a href="#" class="w-100"><img class="w-100" src="assets/images/Payment-Method/GooglePay.png"></a></li>
+												<li class="col-6"><a href="#" class="w-100"><img class="w-100" src="assets/images/Payment-Method/ApplePay.png"></a></li>
+											</ul>
+										</div>
+									</div>
+                                    <div class="col-lg-3 col-sm-6 col-12">
+										<div class="footer-menu-col text-sm-start">
+											<!-- <p>Get All Latest Updates</p> -->
+											<h6 class="white_text">Contact</h6>
+											<a href="#" class="d-flex align-items-start">
+												<img src="assets/images/Location.png" class="pe-3">
+												<p class="white_text">60 East 65th Street<br>
+													New Delhi City<br>
+													Hay 10065</p>
+											</a>
+											<div class="footer-media my-3">
+												<ul class="d-flex justify-content-sm-between justify-content-center">
+													<li class="pe-2"><a href="#"><img src="assets/images/facebook.png"></a></li>
+													<li class="pe-2"><a href="#"><img src="assets/images/instagram.png"></a></li>
+													<li class="pe-2"><a href="#"><img src="assets/images/twitter.png"></a></li>
+													<li class="pe-2"><a href="#"><img src="assets/images/youtube.png"></a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+                                    
+                                </div>
+                            </div>
+                            <div class="visit_our_cafe" style="background-image: url('./assets/images/visit_our_cafe_bg.png'); background-size: cover;background-repeat: no-repeat;">
+                            	<div class="visit_our_cafe-row">
+                            		<div class="visit_our_cafe-text">
+                            			<h3 class="white_text">Visit Our Cafe for more variety</h3>
+                            			<p>Consectetur numquam poro nemo veniam <br>eligendi rem adipisci quo modi.</p>
+                            		</div>
+                            		<div class="visit_our_cafe-link">
+                            			<a href="#" class="btn btn-yellow">GO</a>
+                            		</div>
+                            	</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="footer-second-wrapper">
+                        <div class="w-100 text-center py-3">
+                            <div class="copyright">
+                                <p class="mb-0 white_text">Gore cafe & restaurant© 2023. All Rights Reserved.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+		<!-- ====== FOOTER End ====== -->
+
+	</body>
+	<script type="text/javascript" src="./assets/js/jquery-3.6.0/jquery.min.js"></script>
+	<script type="text/javascript" src="./assets/js/popper.min.js"></script>
+	<script type="text/javascript" src="./assets/js/bootstrap-5.0.2/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="./assets/js/css3-animate-it.js"></script>
+	<script type="text/javascript" src="./assets/js/slick.min.js"></script>
+	<script type="text/javascript" src="./assets/js/custom.js"></script>
+
+
+
+</html>

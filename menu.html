@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+		<title>Menu -- Gore restaurant</title>
+
+		<!-- ================ /GOOGLE FONT EOC =================== -->
+		<link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
+		<link href="assets/font/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<!-- ================ /GOOGLE FONT EOC =================== -->
+		
+		<!-- =================== /WEB CSS BOC ==================== -->
+		<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap-5.0.2/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="./assets/font/montserrat/stylesheet.css">
+		<link rel="stylesheet" type="text/css" href="./assets/css/animations.css">
+		<link rel="stylesheet" type="text/css" href="./assets/css/slick.min.css">
+		<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+		<link rel="stylesheet" type="text/css" href="./assets/css/media.css">
+
+		<!-- =================== /WEB CSS EOC ==================== -->
+
+		<style type="text/css">
+			.show_hide {display:none; }
+		</style>
+	</head>
+	<body id="about" class="aboutPage">
+		
+	<!-- ====== /WRAPPER BOC ====== -->
+		<div class="page-wrapper ">
+		  	<!-- header start -->
+		  	<header class="site-header">
+			    <div class="header-main nav-area">
+			      	<div class="header-inner-main">
+			      		<div class="container">
+				          	<div class="navbar-container">
+
+					            <nav class="navbar navbar-dark navbar-expand-lg">
+					                <div class="header-logo">
+					                	<a href="homepage.html"><img src="assets/images/logo.png" alt="header-logo"></a>
+					              	</div>
+					              	<div class="header-inner d-flex">
+						                <div class="header-right">
+							                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+							                    <span class="icon-bar"></span>
+							                    <span class="icon-bar"></span>
+							                    <span class="icon-bar"></span>
+							                </button>
+
+						                    <div class="collapse header-menu navbar-collapse " id="navbarNavDropdown">
+						                      <div class="header-menu-inner" id="accordionMenu">
+						                        <ul class="navbar-nav" id="menu-center">
+						                          	<li class="nav-item ">
+						                            	<a href="homepage.html">HOME</a>
+						                          	</li>
+													
+													<li class="nav-item ">
+						                            	<a href="about.html">ABOUT</a>
+													</li>
+						                          
+													<li class="nav-item active" >
+						                            	<a href="menu.html" class="menu-span">MENU <span class="text-span">NEW</span></a>
+													</li>
+
+													<li class="nav-item">
+						                            	<a href="gallery.html">GALLERY</a>
+													</li>
+
+													<li class="nav-item">
+						                            	<a href="contact.html">CONTACT</a>
+													</li>
+						                          
+						                        </ul>
+
+						                        <div class="header-btn">
+						                        	<a href="cart.html" class="cart-link"><img src="assets/images/cart.png" alt="#"><span class="number-text">12</span></a>
+						                        	<a href="profile.html" class="profile-link"><img src="assets/images/profile-icon.png" alt="#"></a>
+						                        </div>
+
+						                      </div>
+						                    </div>
+						                </div>
+						            </div>
+					            </nav>
+				            </div>
+			            </div>
+			        </div>
+			    </div>
+		  	</header> 
+			<!-- header End -->
+
+			<!-- Content Start -->
+
+			<div class="page-loader">
+				<div class="moderspinner"></div>
+			</div>
+
+		<!-- 	<section class="banner-sec banner-ptb-70" >
+				<div class="banner-section banner-header-pt" style="background-image: url('./assets/images/menu-bg.png');">
+					<div class="container">
+						<div class="banner_wp">
+							<div class="banner_profile">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</section> -->
+
+
+
+			<section class="section profile-main menu-header-bg">
+				<div class="profile-main-sc">
+					<div class="container">
+						<div class="profile-wrapper mt-0">
+							<div class="row justify-content-center">
+								<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+									<div class="menutop-header">
+										<ul>
+											<li><img src="assets/images/checkout/star.png" alt="#" class="icon"> <span>0 Reviews</span></li>
+											<li><img src="assets/images/checkout/location_on.png" alt="#" class="icon"> <span>200 m Distance</span></li>
+											<li><img src="assets/images/checkout/moped.png" alt="#" class="icon"> <span>15 min Collection</span></li>
+											<li><img src="assets/images/checkout/connect.png" alt="#" class="icon"> <span>Closed Delivery</span></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-3 col-md-4 col-sm-12 col-12"0>
+									<div class="profile-side-bar white-bg">
+										<div class="profile-header">
+											<div class="profile-header-wp">
+												<h5>Categories</h5>
+											</div>
+											
+										</div>
+										<div class="your-order-list">
+											<div class="profile-side-link categories-main">
+												<ul>
+													<li class="active"><a href="#"> Biriyani <span>3 Items</span></a></li>
+													<li ><a href="#">Breads  <span>2 Items</span></a></li>
+													<li ><a href="#">Chaat <span>5 Items</span></a></li>
+													<li ><a href="#">Starer <span>12 Items</span></a></li>
+													<li ><a href="#">Desert <span>11 Items</span></a></li>
+													<li ><a href="#">Lamb <span>2 Items</span></a></li>
+													<li ><a href="#">Prawn fish <span>7 Items</span></a></li>
+													<li ><a href="#">Salads <span>5 Items</span></a></li>
+													<li ><a href="#">Rice <span>2 Items</span></a></li>
+													<li ><a href="#">Vegetables <span>2 Items</span></a></li>
+													<li ><a href="#">Drinks <span>10 Items</span></a></li>
+													<li ><a href="#">Party Items <span>5 Items</span></a></li>
+													<li ><a href="#">Kid Items <span>10 Items</span></a></li>
+													<li ><a href="#">Family Pack <span>5 Items</span></a> </li>
+													<li ><a href="#">Chicken <span>2 Items</span></a> </li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-8 col-sm-12 col-12 ">
+									<div class="cafe-menu-center" id="accordionExample">
+										<div class="food-search white-bg">
+											<input type="text" class="search-food" placeholder="Search Food...">
+										</div>
+
+										<div class="accordion cafe-menu-accordion " >
+											<div class="accordion-item white-bg">
+												<h6 class="accordion-header" id="headingOne">
+												  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+												   Best Selling
+												  </button>
+												</h6>
+												<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" >
+												  <div class="accordion-body">
+												   <div class="your-order-list">
+
+												    <div class="your-order-row">
+												        <div class="yo-list-left">
+												          <div class="yo-list-left-row">
+												            <div class="food-img">
+												              <img src="assets/images/checkout/food-img_1.png" alt="#">
+												            </div>
+												            <div class="food-details">
+												               <h5>Lamb Biriyani <span>$49.00</span></h5>
+												               <p>King Prawns marinated in house special ground spices, rose water, saffron, cooked with...</p>
+												            </div>
+												          </div>
+												        </div>
+												        <div class="yo-list-right">
+												          <div class="v-counter">
+												            <input type="button" class="minusBtn" value="-" />
+												            <input type="text" size="25" value="01" class="count" /> 
+												            <input type="button" class="plusBtn" value="+" />
+												          </div>
+												        </div>
+												    </div>
+												    <div class="your-order-row">
+												        <div class="yo-list-left">
+												          <div class="yo-list-left-row">
+												            <div class="food-img">
+												              <img src="assets/images/checkout/food-img_2.png" alt="#">
+												            </div>
+												            <div class="food-details">
+												               <h5>Lamb Biriyani <span>$49.00</span></h5>
+												               <p>King Prawns marinated in house special ground spices, rose water, saffron, cooked with...</p>
+												            </div>
+												          </div>
+												         
+												        </div>
+												        <div class="yo-list-right">
+												          	<div class="v-counter">
+															  <a href="#" class="add-cart">Add to cart</a>
+															</div>
+												        </div>
+												    </div>
+												    <div class="your-order-row">
+												        <div class="yo-list-left">
+												          <div class="yo-list-left-row">
+												            <div class="food-img">
+												              <img src="assets/images/checkout/food-img_3.png" alt="#">
+												            </div>
+												            <div class="food-details">
+												               <h5>Lamb Biriyani <span>$49.00</span></h5>
+												               <p>King Prawns marinated in house special ground spices, rose water, saffron, cooked with...</p>
+												            </div>
+												          </div>
+												         
+												        </div>
+												        <div class="yo-list-right">
+												          	<div class="v-counter">
+															  <a href="#" class="add-cart">Add to cart</a>
+															</div>
+												        </div>
+												    </div>
+												    <div class="your-order-row">
+												        <div class="yo-list-left">
+												          <div class="yo-list-left-row">
+												            <div class="food-img">
+												              <img src="assets/images/checkout/food-img_4.png" alt="#">
+												            </div>
+												            <div class="food-details">
+												               <h5>Lamb Biriyani <span>$49.00</span></h5>
+												               <p>King Prawns marinated in house special ground spices, rose water, saffron, cooked with...</p>
+												            </div>
+												          </div>
+												         
+												        </div>
+												        <div class="yo-list-right">
+												          	<div class="v-counter">
+															  <a href="#" class="add-cart">Add to cart</a>
+															</div>
+												        </div>
+												    </div>
+												    <div class="your-order-row">
+												        <div class="yo-list-left">
+												          <div class="yo-list-left-row">
+												            <div class="food-img">
+												              <img src="assets/images/checkout/food-img_4.png" alt="#">
+												            </div>
+												            <div class="food-details">
+												               <h5>Lamb Biriyani <span>$49.00</span></h5>
+												               <p>King Prawns marinated in house special ground spices, rose water, saffron, cooked with...</p>
+												            </div>
+												          </div>
+												         
+												        </div>
+												        <div class="yo-list-right">
+												          	<div class="v-counter">
+															  <a href="#" class="add-cart">Add to cart</a>
+															</div>
+												        </div>
+												    </div>
+
+
+												    </div>
+												  </div>
+												</div>
+											</div>
+											<div class="accordion-item white-bg">
+												<h6 class="accordion-header" id="headingTwo">
+												  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+												  	Box Meal
+												  </button>
+												</h6>
+												<div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" >
+												  <div class="accordion-body">
+												   <div class="your-order-list">
+
+												    <div class="your-order-row">
+												        <div class="yo-list-left">
+												          <div class="yo-list-left-row">
+												            <div class="food-img">
+												              <img src="assets/images/checkout/food-img_1.png" alt="#">
+												            </div>
+												            <div class="food-details">
+												               <h5>Lamb Biriyani <span>$49.00</span></h5>
+												               <p>King Prawns marinated in house special ground spices, rose water, saffron, cooked with...</p>
+												            </div>
+												          </div>
+												        </div>
+												        <div class="yo-list-right">
+												          <div class="v-counter">
+												            <input type="button" class="minusBtn" value="-" />
+												            <input type="text" size="25" value="01" class="count" /> 
+												            <input type="button" class="plusBtn" value="+" />
+												          </div>
+												        </div>
+												    </div>
+												    <div class="your-order-row">
+												        <div class="yo-list-left">
+												          <div class="yo-list-left-row">
+												            <div class="food-img">
+												              <img src="assets/images/checkout/food-img_2.png" alt="#">
+												            </div>
+												            <div class="food-details">
+												               <h5>Lamb Biriyani <span>$49.00</span></h5>
+												               <p>King Prawns marinated in house special ground spices, rose water, saffron, cooked with...</p>
+												            </div>
+												          </div>
+												         
+												        </div>
+												        <div class="yo-list-right">
+												          	<div class="v-counter">
+															  <a href="#" class="add-cart">Add to cart</a>
+															</div>
+												        </div>
+												    </div>
+												    <div class="your-order-row">
+												        <div class="yo-list-left">
+												          <div class="yo-list-left-row">
+												            <div class="food-img">
+												              <img src="assets/images/checkout/food-img_3.png" alt="#">
+												            </div>
+												            <div class="food-details">
+												               <h5>Lamb Biriyani <span>$49.00</span></h5>
+												               <p>King Prawns marinated in house special ground spices, rose water, saffron, cooked with...</p>
+												            </div>
+												          </div>
+												         
+												        </div>
+												        <div class="yo-list-right">
+												          	<div class="v-counter">
+															  <a href="#" class="add-cart">Add to cart</a>
+															</div>
+												        </div>
+												    </div>
+												    <div class="your-order-row">
+												        <div class="yo-list-left">
+												          <div class="yo-list-left-row">
+												            <div class="food-img">
+												              <img src="assets/images/checkout/food-img_4.png" alt="#">
+												            </div>
+												            <div class="food-details">
+												               <h5>Lamb Biriyani <span>$49.00</span></h5>
+												               <p>King Prawns marinated in house special ground spices, rose water, saffron, cooked with...</p>
+												            </div>
+												          </div>
+												         
+												        </div>
+												        <div class="yo-list-right">
+												          	<div class="v-counter">
+															  <a href="#" class="add-cart">Add to cart</a>
+															</div>
+												        </div>
+												    </div>
+												    <div class="your-order-row">
+												        <div class="yo-list-left">
+												          <div class="yo-list-left-row">
+												            <div class="food-img">
+												              <img src="assets/images/checkout/food-img_4.png" alt="#">
+												            </div>
+												            <div class="food-details">
+												               <h5>Lamb Biriyani <span>$49.00</span></h5>
+												               <p>King Prawns marinated in house special ground spices, rose water, saffron, cooked with...</p>
+												            </div>
+												          </div>
+												         
+												        </div>
+												        <div class="yo-list-right">
+												          	<div class="v-counter">
+															  <a href="#" class="add-cart">Add to cart</a>
+															</div>
+												        </div>
+												    </div>
+
+
+												    </div>
+												  </div>
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-12 col-sm-12 col-12">
+									<div class="profile-side-bar white-bg">
+										<div class="profile-header">
+											<div class="profile-header-wp left-right-content">
+												<h5>Your Order</h5>
+												<a href="#" class="save d-flex align-items-center"><img src="assets/images/checkout/fill.png" alt="#" class="icon"> Save</a>
+											</div>
+											
+										</div>
+										<div class="your-order-list">
+											<div class="your-order-row">
+												<div class="yo-list-left">
+													<h5>Lamb Biriyani</h5>
+													<span>$49.00</span>
+												</div>
+												<div class="yo-list-right">
+													<div class="v-counter">
+														<input type="button" class="minusBtn" value="-" />
+														<input type="text" size="25" value="01" class="count" /> 
+														<input type="button" class="plusBtn" value="+" />
+													</div>
+												</div>
+											</div>
+											<div class="your-order-row">
+												<div class="yo-list-left">
+													<h5>Lamb Biriyani</h5>
+													<span>$49.00</span>
+												</div>
+												<div class="yo-list-right">
+													<div class="v-counter">
+														<input type="button" class="minusBtn" value="-" />
+														<input type="text" size="25" value="01" class="count" /> 
+														<input type="button" class="plusBtn" value="+" />
+													</div>
+												</div>
+											</div>
+
+											<div class="accordion recommended-main" id="recommended-main">
+												<div class="accordion-item">
+													<h6 class="accordion-header" id="recommended-1">
+													  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#recommended" aria-expanded="true" aria-controls="recommended">
+													    Recommended
+													  </button>
+													</h6>
+													<div id="recommended" class="accordion-collapse collapse show" aria-labelledby="recommended-1" data-bs-parent="#recommended-main">
+														<div class="accordion-body">
+															<div class="your-order-row">
+																<div class="yo-list-left">
+																<h5>Lamb Biriyani</h5>
+																<span>$49.00</span>
+																</div>
+																<div class="yo-list-right">
+																<div class="v-counter">
+																  <a href="#" class="add-cart">Add to cart</a>
+																</div>
+																</div>
+															</div>
+															<div class="your-order-row">
+																<div class="yo-list-left">
+																	<h5>Lamb Biriyani</h5>
+																	<span>$49.00</span>
+																</div>
+																<div class="yo-list-right">
+																	<div class="v-counter">
+																	  	<a href="#" class="add-cart">Add to cart</a>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="total-main">
+												<div class="total-row">
+													<div class="total-col"><h6>Subtotal</h6></div>
+													<div class="price">$100</div>
+												</div>
+												<div class="total-row charge">
+													<div class="total-col"><p>Service charge</p></div>
+													<div class="price">$5</div>
+												</div>
+												<div class="total-row total">
+													<div class="total-col"><h6>Total</h6></div>
+													<div class="price">$100</div>
+												</div>
+
+												<div class="apply_coupon_main">
+													<input type="text" class="apply-input" placeholder="Enter coupon code">
+													<button class="btn-apply">Apply</button>
+												</div>
+												
+											</div>
+											<div class="instruction_order">
+												<p>Instruction for your order</p>
+												<h6>If you are allergic or intolerant to any food item!</h6>
+												<div class="profile-form form-btn">
+													<button class="btn btn-yellow w-100 font_sb" type="submit">CHECKOUT</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<div class="menu-sub-section">
+
+				<section class="offer-sec pb-5 mt-0">
+					<div class="offer-section">
+						<div class="container">
+							<div class="offer-wrapper d-flex">
+								<div class="offer-content-slider">
+									<div class="row position-relative g-0">
+										<div class="col-lg-6 col-md-9 col-12 p-0">
+											<div class="offer-left-slider">
+												<div class="offer-left p-md-5 p-4" style="background-image: url('./assets/images/home/offer_content_bg.png');">
+													<div class="title-main">
+														<p class="title mb-2">Best Offer</p>
+														<h3 class="white_text mb-3">Get Best Combo Offer of the Day</h3>
+													</div>
+													<div class="offer-content ">
+														<h6 class="white_text font-sb d-flex align-items-center"><del>$100</del><span class="white_text font-sb mx-2">$50</span><span class="font-12 green_text">Save 50%</span></h6>
+														
+													</div>
+													<div class="content">
+														<p class="white_text fw-light my-4">Chunks of lamb marinated in house special ground spices, rose water, saffron, brown onions, rose petals and vapour cooked with aromatic basmati rice. Served with cucumber raita.</p>
+														
+													</div>
+													<div class="offer-btn">
+														<a class="btn btn_white-border me-md-4 me-3" type="button">Add to Cart</a>
+														<button class="btn btn-white-black" type="button">Buy Now</button>
+													</div>
+												</div>
+												<div class="offer-left p-md-5 p-4" style="background-image: url('./assets/images/home/offer_content_bg.png');">
+													<div class="title-main">
+														<p class="title mb-2">Best Offer 2</p>
+														<h3 class="white_text mb-3">Get Best Combo Offer of the Day</h3>
+													</div>
+													<div class="offer-content ">
+														<h6 class="white_text font-sb d-flex align-items-center"><del>$100</del><span class="white_text font-sb mx-2">$50</span><span class="font-12 green_text">Save 40%</span></h6>
+														
+													</div>
+													<div class="content">
+														<p class="white_text fw-light my-4">Chunks of lamb marinated in house special ground spices, rose water, saffron, brown onions, rose petals and vapour cooked with aromatic basmati rice. Served with cucumber raita.</p>
+														
+													</div>
+													<div class="offer-btn">
+														<a class="btn btn_white-border me-md-4 me-3" type="button">Add to Cart</a>
+														<button class="btn btn-white-black" type="button">Buy Now</button>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="offer-right col-lg-6 col-md-3 col-12">
+											<div class="offer-img">
+												<img alt="offer_img" class="w-100 h-100" src="assets/images/home/offer_img.png">
+											</div>
+											
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="section new-event-sec common-padding">
+					<div class="new-event-section">
+						<div class="container">
+							<div class="new-event-wrapper position-relative pt-5">
+								<div class="new-event-content mt-md-5" style="background-image: url('./assets/images/home/event_form_bg.png');">
+									<div class="title-main">
+										<h2 class="primary_text mb-3">New Year Event</h2>
+									</div>
+									<div class="new-event-text mb-4">
+										<p class="primary_text">Would you like join the biggest food festival for the new year celebration and to enjoy your amazing Food , Drinks & Music with your family & friends. Join Us Today</p>
+									</div>
+									<div class="new-event-form">
+										<form class="d-flex justify-content-center">
+											<div class="position-relative">
+												<div class="select-arrow">
+													<i class="fa fa-angle-down" aria-hidden="true"></i>
+												</div>
+												<select class="form-control event-select">
+													<option>1 Person</option>
+													<option>1 Person</option>
+													<option>1 Person</option>
+													<option>1 Person</option>
+												</select>
+											</div>
+											<div >
+												<input type="text" placeholder="Email" class="form-control event-control">
+											</div>
+											<div class="">
+												<button type="button" class="btn btn-yellow event-btn">BOOK</button>
+											</div>
+										</form>
+									</div>
+									<div class="new-event-note mt-4">
+										<span class="font-12 grey_text">NOTE : We will contact you for further information</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+			</div>
+
+			<!-- Content End -->
+		</div>
+
+		<!-- ====== FOOTER BOC ====== -->
+		<footer> 
+			<div class="footer-top">
+				<div class="container">
+					<div class="footer-top-wrapper text-center">
+						<div class="footer-logo">
+							<img alt="footer_logo" src="assets/images/logo.png">
+						</div>
+						<div class="footer-top-content">
+							<h4 class="fw-light">Get all latest news of our restaurant<br> food at any time.</h4>
+						</div>
+						<div class="footer-form">
+							<div class="form-group">
+								<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Email">
+								<button type="submit" class="btn btn-yellow">Subscribe</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+            <div class="footer-main">
+                <div class="container">
+                    <div class="footer-wrapper">
+                        <div class="inner-footer">
+                            <div class="footer-mennu-wrapper pb-5">
+                                <div class="row gx-md-5 gy-4">
+                                    <div class="col-lg-2 col-sm-6 col-12">
+										<div class="footer-menu-col footer-menu-link">
+											<h6 class="white_text">Quick Links</h6>
+											<ul>
+												<li><a href="#"><p>Home</p></a></li>
+												<li><a href="#"><p>About</p></a></li>
+												<li><a href="#"><p>Menu</p></a></li>
+												<li><a href="#"><p>Gallery</p></a></li>
+												<li><a href="#"><p>Contact</p></a></li>
+												<li><a href="#"><p>My Order</p></a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-lg-4 col-sm-6 col-12">
+										<div class="footer-menu-col">
+											<h6 class="white_text">Our Place</h6>
+											<div class="place-box-wrapper">
+												<a href="#">
+													<img class="w-100" src="assets/images/footer_place_img1.png">
+												</a>
+												<a href="#">
+													<img class="w-100" src="assets/images/footer_place_img2.png">
+												</a>
+												<a href="#">
+													<img class="w-100" src="assets/images/footer_place_img3.png">
+												</a>
+												<a href="#">
+													<img class="w-100" src="assets/images/footer_place_img4.png">
+												</a>
+												<a href="#">
+													<img class="w-100" src="assets/images/footer_place_img5.png">
+												</a>
+												<a href="#">
+													<img class="w-100" src="assets/images/footer_place_img6.png">
+												</a>
+											</div>
+										</div>
+									</div>
+                                    <div class="col-lg-3 col-sm-6 col-12">
+										<div class="footer-menu-col payment-accept-main">
+											<h6 class="white_text">Payment We Accept</h6>
+											<ul class="row g-4">
+												<li class="col-6"><a href="#" class="w-100"><img class="w-100" src="assets/images/Payment-Method/Visa.png"></a></li>
+												<li class="col-6"><a href="#" class="w-100"><img class="w-100" src="assets/images/Payment-Method/Mastercard.png"></a></li>
+												<li class="col-6"><a href="#" class="w-100"><img class="w-100" src="assets/images/Payment-Method/GooglePay.png"></a></li>
+												<li class="col-6"><a href="#" class="w-100"><img class="w-100" src="assets/images/Payment-Method/ApplePay.png"></a></li>
+											</ul>
+										</div>
+									</div>
+                                    <div class="col-lg-3 col-sm-6 col-12">
+										<div class="footer-menu-col text-sm-start">
+											<!-- <p>Get All Latest Updates</p> -->
+											<h6 class="white_text">Contact</h6>
+											<a href="#" class="d-flex align-items-start">
+												<img src="assets/images/Location.png" class="pe-3">
+												<p class="white_text">60 East 65th Street<br>
+													New Delhi City<br>
+													Hay 10065</p>
+											</a>
+											<div class="footer-media my-3">
+												<ul class="d-flex justify-content-sm-between justify-content-center">
+													<li class="pe-2"><a href="#"><img src="assets/images/facebook.png"></a></li>
+													<li class="pe-2"><a href="#"><img src="assets/images/instagram.png"></a></li>
+													<li class="pe-2"><a href="#"><img src="assets/images/twitter.png"></a></li>
+													<li class="pe-2"><a href="#"><img src="assets/images/youtube.png"></a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+                                    
+                                </div>
+                            </div>
+                            <div class="visit_our_cafe" style="background-image: url('./assets/images/visit_our_cafe_bg.png'); background-size: cover;background-repeat: no-repeat;">
+                            	<div class="visit_our_cafe-row">
+                            		<div class="visit_our_cafe-text">
+                            			<h3 class="white_text">Visit Our Cafe for more variety</h3>
+                            			<p>Consectetur numquam poro nemo veniam <br>eligendi rem adipisci quo modi.</p>
+                            		</div>
+                            		<div class="visit_our_cafe-link">
+                            			<a href="#" class="btn btn-yellow">GO</a>
+                            		</div>
+                            	</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="footer-second-wrapper">
+                        <div class="w-100 text-center py-3">
+                            <div class="copyright">
+                                <p class="mb-0 white_text">Gore cafe & restaurant© 2023. All Rights Reserved.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+		<!-- ====== FOOTER End ====== -->
+
+	</body>
+	<script type="text/javascript" src="./assets/js/jquery-3.6.0/jquery.min.js"></script>
+	<script type="text/javascript" src="./assets/js/popper.min.js"></script>
+	<script type="text/javascript" src="./assets/js/bootstrap-5.0.2/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="./assets/js/css3-animate-it.js"></script>
+	<script type="text/javascript" src="./assets/js/slick.min.js"></script>
+	<script type="text/javascript" src="./assets/js/custom.js"></script>
+
+
+
+</html>
